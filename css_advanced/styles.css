@@ -252,3 +252,54 @@ blockquote{
     color: #071629;
     margin: 15px 0;
 }
+
+
+/*Footer*/
+
+.section-10{
+    height: 15vh;
+    background-color: #071629; 
+    
+}
+
+.footer{
+    display: flex;      
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    
+}
+
+.image{
+    flex: 2; 
+    padding: 30px;  
+    width: 20px; 
+    height: 20px;
+}
+.socials{
+    width: 50px;
+    height: 50px;
+    flex: 3;
+    margin-top: 20px;
+}
+.socials .fa-facebook{    
+    border-radius: 50%; 
+      
+    margin: 15px;
+}
+.socials .fa-twitter{    
+    border-radius: 50%; 
+      
+    margin: 15px;
+}
+.socials .fa-instagram{    
+    border-radius: 50%; 
+      
+    margin: 15px;
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 10px;
+}
+      

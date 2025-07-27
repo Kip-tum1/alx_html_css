@@ -196,3 +196,41 @@ blockquote{
     left: 60px;
     z-index: 1;
 }
+
+/*Section-5*/
+
+.section-5{
+    background-color: #071629;
+    color: white;    
+    height: 35vh;
+    padding-top: 30px;
+}
+
+
+.section-5 h2{
+    text-align: center;
+
+}    
+
+.section-6{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.section-7 p{
+    text-align: center;
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color:#c271ff ;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+
+}

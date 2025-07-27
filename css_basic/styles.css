@@ -16,3 +16,20 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+.raizy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+}
+.header{
+    margin-left: 300px;
+    display: flex;
+}
+
+.raizy .logo{
+    font-size: 16px;
+    color: #017629;
+}

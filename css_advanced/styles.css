@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+.header{
+    display: flex;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.first-main{
+    padding-top: 160px;
+    background-image: url(Object.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+}
+
+.headings-links{
+    display: flex;
+    text-align: right;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 700px;
+    color: white;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+
+.first-main{
+    width: 100%;
+    height: 100vh;
+
+}
+.first-main h1{
+    color: white;
+    text-align: center;
+    font-family: source sans pro;
+    font-size: 5.5rem; 
+    
+}
+
+.span{
+    display: block;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    gap: 60px;
+    
+}
+
+.spans{
+    margin-left: 50px;
+}
+.main-container h2{
+    color: #c271ff;
+    text-align: center;
+}
+.main-container span{
+    color: white;
+}
+.partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 70px;
+    margin-left: 40px;    
+    margin: auto;
+}
+.border{
+    border-radius: 50%;
+}
+.partners h3{
+    color: white;
+}
+.partners p{
+    text-align: center;
+    width: 150px;
+    color: white;
+}
+
+.partner{
+    margin: 20px;
+}
+
+
+.register{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color:#c271ff ;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+}
+

@@ -147,3 +147,52 @@ blockquote{
     font-size: 1.5rem;
 
 }
+
+/* class section-3 */
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    text-align: centre;
+    gap: 30px;
+}
+
+.section-3{
+    margin-top: 20px;
+}
+
+.section-3 h2{
+    text-align: center;
+}
+.relative{
+    display: flex;
+}
+.relative img{
+    width: 30px;
+    height: 30px;
+}
+.relative h4{
+    margin: 8px 8px;
+    color: #c271ff;
+}
+
+.stars{
+    display: flex;
+    color: #c271ff;
+}
+
+.star{
+    background-color: #d8d8d8;
+}
+
+.relate{
+    position: relative;
+    top: 0px;
+    left: 0px;  
+}
+.absolute{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    z-index: 1;
+}
